@@ -8,11 +8,12 @@
 }
 
 #history-baidu .blog-slider__pagination {
+  display: none;
   color: blue;
 }
 
 .history_slide_time {
-  color: #858585;
+  color: #575757;
   font-style: italic;
   font-weight: lighter;
 }
