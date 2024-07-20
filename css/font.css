@@ -1,8 +1,5 @@
-@font-face {
-    font-family: 'BiMoChunQiu';
-    src: url('https://storage.enltc.pages.dev/font/BiMoChunQiu-ChaoQingKaiShu-2.ttf') format('truetype');
-}
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
 
 body {
-    font-family: 'BiMoChunQiu';
+    font-family: 'ZCOOL XiaoWei';
 }
