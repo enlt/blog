@@ -24,6 +24,8 @@ run_command(f"git commit -m \"{commit_message}\"")
 run_command("git remote remove origin", ignore_errors=True)
 
 run_command(f"git remote add origin https://{github_token}@github.com/enlt/blog.git")
+
+# Push to 'main' branch
 run_command("git push -f origin main")
 
 run_command("hexo clean")
