@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://luoh.netlify.app/
+url: https://enlt.github.io/blog/public
 #url: https://enltc.pages.dev/
 permalink: posts/:abbrlink.html
 permalink_defaults:
@@ -158,4 +158,3 @@ deploy:
   type: git
   repo: https://<GITHUB_TOKEN>@github.com/enlt/blog.git
   branch: gh-pages
-
