@@ -156,6 +156,6 @@ theme: anzhiyu
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://ghp_your_token:@github.com/enlt/blog.git
+  repo: https://<GITHUB_TOKEN>@github.com/enlt/blog.git
   branch: gh-pages
 

@@ -7,7 +7,7 @@ date: 2024-07-31 11:25:00
 ---
 
 # 前言
-本文是对于[luohAPI](https://api.luoh.my.to/)的文档介绍，便于更方便的使用。
+本文是对于[luohAPI](https://api.luoh.my.to/)的文档介绍，便于更方便的使用
 
 ---
 

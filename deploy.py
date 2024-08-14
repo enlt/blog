@@ -3,6 +3,7 @@ import subprocess
 from datetime import datetime
 
 def run_command(command, ignore_errors=False):
+    print(f"Running command: {command}")
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
     if result.returncode != 0:
         if not ignore_errors:
@@ -27,6 +28,6 @@ run_command(f"git remote add origin https://{github_token}@github.com/enlt/blog.
 
 run_command("git push -f origin main")
 
-run_command("hexo clean")
-run_command("hexo generate")
-run_command("hexo deploy")
+run_command("hexo c")
+run_command("hexo g")
+run_command("hexo d")
