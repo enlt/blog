@@ -3,11 +3,11 @@ import subprocess
 from datetime import datetime
 
 def run_command(command, ignore_errors=False):
-    print(f"Running command: {command}")
+    print(f"{command}")
     result = subprocess.run(command, shell=True, capture_output=True, text=True)
     if result.returncode != 0:
         if not ignore_errors:
-            print(f"Command failed: {command}\n{result.stderr}")
+            print(f"{command}\n{result.stderr}")
             exit(1)
     return result
 
@@ -16,7 +16,6 @@ if not github_token:
     print("Error: GITHUB_TOKEN is not set")
     exit(1)
 
-run_command("git init")
 run_command("git add .")
 
 commit_message = f"Hexo source {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
