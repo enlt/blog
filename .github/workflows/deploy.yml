@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [10.x]
+        node-version: [22.x]
 
     steps:
       - name: 开始运行
@@ -38,14 +38,12 @@ jobs:
         run: 
           npm install
 
-      - name: 部署博客
-        run: 
-          hexo clean && hexo g && hexo douban && gulp
-          cd ./public
+        - name: 部署博客
+        run: |
+          hexo clean && hexo g
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
           git init
-          git config user.name "${{secrets.GIT_NAME}}"
-          git config user.email "${{secrets.GIT_EMAIL}}"
-          git add .
-          git commit -m "Update"
-          git push --force --quiet "https://${{secrets.GH_TOKEN}}@${{secrets.GH_REF}}" master:master
-          git push --force --quiet "https://${{secrets.CD_TOKEN}}@${{secrets.CD_REF}}" master:master
+          git add -A
+          git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
+          git push -f https://${{ secrets.TOKEN }}@github.com/enlt/blog.git `public`:gh-pages
