@@ -470,6 +470,7 @@ inject:
     - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> # jquery.min.js
     #- <script defer="true" src="https://cdn.cbd.int/luoh-blog@0.0.2/js/welcome.js"></script> # 个性定位欢迎信息
     - <script async data-pjax src="https://cdn.cbd.int/luoh-blog@0.0.2/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+    - <script type="text/javascript" src="https://cdn.cbd.int/luoh-blog@0.0.6/js/http.js"></script> # jquery.min.js
 
 lazyload:
   enable: true
