@@ -98,7 +98,7 @@ runtimeshow:
 error_404:
   enable: true
   subtitle: "怪兽把页面拖走了..."
-  background: https://pic.chino.my.to/i/2024/07/31/448691.gif
+  background: https://cdn.cbd.int/luoh-blog@0.0.7/image/gif/404.gif #https://pic.chino.my.to/i/2024/07/31/448691.gif
 
 icons:
   fontawesome: true
@@ -234,7 +234,7 @@ preloader:
   enable: true
   source: 3
   pace_css_url:
-  avatar: https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
+  avatar: https://cdn.cbd.int/luoh-blog@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
 
 # 评论匿名邮箱
 visitorMail:
@@ -289,7 +289,7 @@ home_top:
   banner:
     tips: 置顶
     title: 落渐离
-    image: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722229480952.webp
+    image: https://cdn.cbd.int/luoh-blog@0.0.8/image/webp/banner-image.webp #https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722229480952.webp
     link: https://luoh.pages.dev/
 
 agreementPopup:
@@ -342,7 +342,7 @@ mourn:
   days: [4-4, 7-7, 9-18, 12-13]
 
 avatar:
-  img: https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
+  img: https://cdn.cbd.int/luoh-blog@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
   effect: false
 
 toc:
@@ -384,8 +384,8 @@ footer:
         shields: https://cdn.cbd.int/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
       - link: https://jsdmirror.com/
-        shields: https://cdn.cbd.int/luoh-blog@0.0.1/image/CDN-JSDMirror.svg
-        message: 本站使用JSDMirror为静态资源提供CDN加速
+        shields: https://cdn.cbd.int/luoh-blog@0.0.7/image/svg/CDN-cdn.cbd.int-darkgreen.svg
+        message: 本站使用cdn.cbd.int为静态资源提供CDN加速
       - link: https://github.com/
         shields: https://cdn.cbd.int/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
         message: 本站项目由Github托管
