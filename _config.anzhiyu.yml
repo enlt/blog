@@ -167,7 +167,7 @@ aside:
     name_link: /about        # 作者链接
   card_announcement:
     enable: true
-    content: <img src='https://api.luoh.my.to/daysign.php'>   # 公告内容
+    content: <img src='http://api.chino.my.to/daysign.php'>   # 公告内容
   card_weixin:
     enable: false             # 是否启用微信卡片
     face:      # 正面图片链接
@@ -290,7 +290,7 @@ home_top:
     tips: 置顶
     title: 落渐离
     image: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722229480952.webp
-    link: https://luoh.my.to/
+    link: https://luoh.pages.dev/
 
 agreementPopup:
   enable: true
