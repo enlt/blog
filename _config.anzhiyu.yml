@@ -167,7 +167,7 @@ aside:
     name_link: /about        # 作者链接
   card_announcement:
     enable: true
-    content: <img src='http://api.chino.my.to/daysign.php'>   # 公告内容
+    content: <img src='https://api.luoh.my.to/daysign.php'>   # 公告内容
   card_weixin:
     enable: false             # 是否启用微信卡片
     face:      # 正面图片链接
@@ -264,7 +264,7 @@ home_top:
   timemode: date #date/updated
   title: 一缕红线落人间
   subTitle: 半壶清酒破三弦
-  siteText: luoh.my.to
+  siteText: luoh.pages.dev
   category:
     - name: 教程
       path: /categories/教程/
@@ -400,12 +400,12 @@ footer:
     project:
       - title: 服务
         links:
-          - title: 51la统计
-            link: https://v6.51.la/
-          - title: cdn.cbd.int
+          - title: 不蒜子
+            link: https://dusays.com/476/
+          - title: Unpkg
             link: https://cdn.cbd.int/
           - title: luohAPI
-            link: https://api.luoh.my.to
+            link: https://api.luoh.my.to/
       - title: 导航
         links:
           - title: 即刻短文
@@ -427,7 +427,7 @@ footer:
     cc:
       enable: false
     linkList:
-      - link: https://luoh.my.to/privacy/
+      - link: https://luoh.pages.dev/privacy/
         text: 协议
 
 # 51a统计配置
@@ -470,7 +470,6 @@ inject:
     - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> # jquery.min.js
     #- <script defer="true" src="https://cdn.cbd.int/luoh-blog@0.0.2/js/welcome.js"></script> # 个性定位欢迎信息
     - <script async data-pjax src="https://cdn.cbd.int/luoh-blog@0.0.2/js/imgloaded.js?1"></script> # 首页图片渐进式加载
-    - <script type="text/javascript" src="https://cdn.cbd.int/luoh-blog@0.0.6/js/http.js"></script> # jquery.min.js
 
 lazyload:
   enable: true
