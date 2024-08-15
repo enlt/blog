@@ -396,7 +396,7 @@ footer:
     enable: false
   list:
     enable: true
-    randomFriends: 3
+    randomFriends: 0
     project:
       - title: 服务
         links:
@@ -418,10 +418,10 @@ footer:
         links:
           - title: 隐私协议
             link: /privacy/
-          - title: Cookies
-            link: /cookies/
-          - title: 版权协议
-            link: /copyright/
+          # - title: Cookies
+            # link: /cookies/
+          # - title: 版权协议
+            # link: /copyright/
   footerBar:
     enable: true
     cc:
