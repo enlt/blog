@@ -1,5 +1,5 @@
 - title: 即刻短文
-  subTitle: 学生的日常生活。
+  subTitle: 学生的日常生活等...
   tips: 随时随地，分享生活
   buttonText: 关于我
   buttonLink: /about/
@@ -16,6 +16,9 @@
       # from:
       # address:
       # link:
+    - content: Qexo搭建成功
+      date: 2024/08/15
+      from: 落渐离
     - content: 又是一番缝补
       date: 2024/07/29
       from: 落渐离
@@ -30,7 +33,4 @@
       from: 落渐离      
     - content: 芜湖，博客正式建成！
       date: 2024/04/23
-      from: 落渐离
-    - content: Qexo搭建成功
-      date: 2024/08/15
       from: 落渐离
