@@ -10,10 +10,10 @@ menu:
     标签: /tags/ || anzhiyu-icon-tags
 
   我的:
-    音乐馆: https://music.luoh.my.to/ || anzhiyu-icon-music
+    音乐馆: https://music.luoh.pages.dev/ || anzhiyu-icon-music
     相册集: /album/ || anzhiyu-icon-images
     闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-    MIKUTAP: https://luoh.my.to/ || fa-solid fa-guitar
+    MIKUTAP: https://mikutap.luoh.pages.dev/ || fa-solid fa-guitar
     
   其它:
     小空调: /air-conditioner/ || anzhiyu-icon-fan
@@ -133,6 +133,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
+  location: 中国
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
 
@@ -234,7 +235,7 @@ preloader:
   enable: true
   source: 3
   pace_css_url:
-  avatar: https://cdn.cbd.int/luoh-blog@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
+  avatar: https://i1.wp.com/cdn.cbd.int/luoh-blog@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
 
 # 评论匿名邮箱
 visitorMail:
@@ -342,7 +343,7 @@ mourn:
   days: [4-4, 7-7, 9-18, 12-13]
 
 avatar:
-  img: https://cdn.cbd.int/luoh-blog@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
+  img: https://i1.wp.com/cdn.cbd.int/luoh-blog@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
   effect: false
 
 toc:
@@ -350,7 +351,7 @@ toc:
   page: true
   number: true
   expand: false
-  style_simple: false
+  style_simple: false # for post
 
 post_head_ai_description:
   enable: false
@@ -383,7 +384,7 @@ footer:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://cdn.cbd.int/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
-      - link: https://jsdmirror.com/
+      - link: https://cdn.cbd.int/
         shields: https://cdn.cbd.int/luoh-blog@0.0.7/image/svg/CDN-cdn.cbd.int-darkgreen.svg
         message: 本站使用cdn.cbd.int为静态资源提供CDN加速
       - link: https://github.com/
@@ -411,7 +412,7 @@ footer:
           - title: 即刻短文
             link: /essay/
           - title: 随听音乐
-            link: /music/
+            link: https://music.luoh.pages.dev/
           - title: 留言板
             link: /comments/
       - title: 协议
@@ -469,7 +470,7 @@ inject:
   bottom:
     - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> # jquery.min.js
     #- <script defer="true" src="https://cdn.cbd.int/luoh-blog@0.0.2/js/welcome.js"></script> # 个性定位欢迎信息
-    - <script async data-pjax src="https://cdn.cbd.int/luoh-blog@0.0.2/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+    #- <script async data-pjax src="https://cdn.cbd.int/luoh-blog@0.0.2/js/imgloaded.js?1"></script> # 首页图片渐进式加载
 
 lazyload:
   enable: true
