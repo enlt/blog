@@ -98,7 +98,7 @@ if site.data.about
               #statistic
               .post-tips
                 | 统计信息来自 
-                a(href='https://invite.51.la/1NzKqTeb?target=V6', target='_blank', rel='noopener nofollow') 51la网站统计
+                a(href='https://luoh.pages.dev/', target='_blank', rel='noopener nofollow') 51la网站统计
               .banner-button-group
                 - let link = item.statistic.link
                 - let text = item.statistic.text
@@ -290,7 +290,7 @@ if site.data.about
     - const ck = theme.LA.ck
     script(defer).
       function initAboutPage() {
-        fetch("https://v6-widget.51.la/v6/#{ck}/quote.js")
+        fetch("https://luoh.pages.dev/")
           .then(res => res.text())
           .then(data => {
             let title = ["最近活跃", "今日人数", "今日访问", "昨日人数", "昨日访问", "本月访问", "总访问量"];

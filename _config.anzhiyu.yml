@@ -433,9 +433,9 @@ footer:
 
 # 51a统计配置
 LA:
-  enable: false
-  ck: 3J4jpflGza04donK
-  LingQueMonitorID: 3JBt9UjSP6o0Fuqu
+  enable: true
+  ck: # 3J4jpflGza04donK
+  LingQueMonitorID: # 3JBt9UjSP6o0Fuqu
 
 local_search:
   enable: true
@@ -497,3 +497,11 @@ ptool:
   share_copyurl: true
   categories: false # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
+
+# Umami
+Umami:
+  enable: false # 开关
+  umami_url_js: https://um.ruom.top/script.js # 填写 umami js地址 可以使用第三方CDN加速但需要配置下面的 umami_url
+  umami_id: 0766 # 填写 umami 统计 ID
+  umami_api: https://img.ruom.top/umami/ # 填写 umami API 地址
+  umami_url: # https://um.ruom.top 填写 umami 服务器地址 使用 CDN 加速 Umami 静态资源后需配置此项

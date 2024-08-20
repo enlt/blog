@@ -3,15 +3,15 @@
   avatarImg: 
   avatarSkills:
     left:
-      - 🤖️ 数码科技爱好者
-      - 🔍 分享与热心帮助
-      - 🏠 智能家居小能手
-      - 🔨 设计开发一条龙
+      - 海水倾西乱滔天
+      - 大浪惊起尽可怜
+      - 莫言令己亡身道
+      - 惟愿荆棘驻万年
     right: 
-      - 专修交互与设计 🤝
-      - 脚踏实地行动派 🏃
-      - 团队小组发动机 🧱
-      - 壮汉人狠话不多 💢
+      - 白发白衣皆傍地
+      - 花开花谢复四季
+      - 余晖映湖亦孤影
+      - 日隐月现催物栖
   name: 落渐离
   description: 是一名 爱安静的初中生
   aboutsiteTips:
@@ -19,11 +19,10 @@
     title1: 源于
     title2: 热爱而去 感受
     word:
-      - 玩耍
-      - 学习
       - 生活
+      - 学习
       - 程序
-      - 体验
+      - 娱乐
   helloAbout: Hello Friends!
   skillsTips:
     tips: 技能
@@ -34,28 +33,28 @@
     list:
       - desc: 学生
         color: "#357ef5"
-    img: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1721225114198.png
+    img: https://i1.wp.com/pic.chino.my.to/i/2024/08/20/073323.webp
   map:
     title: 我现在住在
     StrengthenTitle: 中国，南阳市
-    background: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1721219532639.jpg
-    backgroundDark: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1721219543944.jpg
+    background: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/258127.webp
+    backgroundDark: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/029810.webp
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722230224385.jpg
+    cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/925187.webp
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2011
-    selfInfoTips2: xx县
-    selfInfoContent2: 第一初级中学
+    selfInfoTips2: 规划
+    selfInfoContent2: 学习
     selfInfoTips3: 现在职业
-    selfInfoContent3: 初二学生
+    selfInfoContent3: 学生
   personalities:
     author_name: 调停者
     personality_type: INFP-T
-    photo_url: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722229480952.webp
-    personality_img: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1721220760856.svg
+    photo_url: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/banner.png
+    personality_img: https://cdn.cbd.int/luoh-blog@0.1.3/image/svg/INFP-T.svg
     name_url: https://www.16personalities.com/ch/infp-人格
   maxim:
     maxim_tips: 座右铭
@@ -63,13 +62,13 @@
     maxim_bottom: 失失得得失失
   buff:
     buff_tips: 特征
-    buff_top: 脑回路可能清晰的 人?
-    buff_bottom: 学习指数 -999999
+    buff_top: 可能清晰的人?（）
+    buff_bottom: 学习指数 -MAX
   game:
     game_tips: 爱好游戏
     game_title: Minecraft
     game_uid: 
-    game_bg: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1721220746640.png
+    game_bg: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/minecraft.png
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
@@ -92,10 +91,10 @@
   like:
     like_tips: 关注偏好
     like_title: 前沿AI
-    like_bg: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1721221984304.png
+    like_bg: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/980628.webp
     like_bottom: 各种新奇的AI
   music:
     music_tips: 音乐偏好
     music_title: 特杂
-    music_bg: https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1721222092218.jpg
+    music_bg: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/938575.webp
     music_link: /music
