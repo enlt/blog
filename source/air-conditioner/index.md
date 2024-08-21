@@ -17,4 +17,4 @@ top_img: false
 </style>
 
 <div id="air-conditioner-vue"></div>
-<script src='https://cdn.cbd.int/luoh-blog@0.0.4/js/air-conditioner.js'></script>
+<script src='https://cdn.cbd.int/luoh-blog-static@0.0.4/js/air-conditioner.js'></script>

@@ -371,7 +371,7 @@ if hexo-config('comments.use') == 'Twikoo'
     color: var(--anzhiyu-fontcolor);
   }
   #body-wrap.page .tk-admin-config .el-input__inner{
-    color: currentColor;
+    color: black;
   }
 
   #twikoo.twikoo .el-input__inner:focus,
@@ -466,4 +466,8 @@ if hexo-config('comments.use') == 'Twikoo'
   .OwO .OwO-body .OwO-items .OwO-item:hover {
     box-shadow: var(--anzhiyu-shadow-lightblack) !important;
     border-radius: 8px;
+  }
+  #twikoo .tk-admin-container {
+    position: fixed;
+    z-index: 1;
   }

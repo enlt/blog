@@ -48,9 +48,9 @@ diytitle:
 # 打赏二维码
 reward:
   enable: true
-  coinAudio: https://cdn.cbd.int/luoh-blog@0.0.5/audio/aowu.m4a
+  coinAudio: https://cdn.cbd.int/luoh-blog-static@0.0.5/audio/aowu.m4a
   QR_code:
-    - img: https://cdn.cbd.int/luoh-blog@0.0.5/image/qrcode-wechat.png
+    - img: https://cdn.cbd.int/luoh-blog-static@0.0.5/image/qrcode-wechat.png
       link:
       text: wechat
 
@@ -98,7 +98,7 @@ runtimeshow:
 error_404:
   enable: true
   subtitle: "怪兽把页面拖走了..."
-  background: https://cdn.cbd.int/luoh-blog@0.0.7/image/gif/404.gif #https://pic.chino.my.to/i/2024/07/31/448691.gif
+  background: https://cdn.cbd.int/luoh-blog-static@0.0.7/image/gif/404.gif #https://pic.chino.my.to/i/2024/07/31/448691.gif
 
 icons:
   fontawesome: true
@@ -235,7 +235,7 @@ preloader:
   enable: true
   source: 3
   pace_css_url:
-  avatar: https://i1.wp.com/cdn.cbd.int/luoh-blog@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
+  avatar: https://i1.wp.com/cdn.cbd.int/luoh-blog-static@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
 
 # 评论匿名邮箱
 visitorMail:
@@ -290,7 +290,7 @@ home_top:
   banner:
     tips: 置顶
     title: 落渐离
-    image: https://cdn.cbd.int/luoh-blog@0.0.8/image/webp/banner-image.webp #https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722229480952.webp
+    image: https://cdn.cbd.int/luoh-blog-static@0.0.8/image/webp/banner-image.webp #https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722229480952.webp
     link: https://luoh.pages.dev/
 
 agreementPopup:
@@ -314,7 +314,7 @@ CDN:
   third_party_provider: cbd
   option:
     meting_api: https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r
-    twikoo: https://cdn.cbd.int/twikoo@1.6.38/dist/twikoo.all.min.js
+    twikoo: https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js
     busuanzi: https://cdn.cbd.int/penndu@1.0.0/bsz.js
 
 # dark mode
@@ -343,7 +343,7 @@ mourn:
   days: [4-4, 7-7, 9-18, 12-13]
 
 avatar:
-  img: https://i1.wp.com/cdn.cbd.int/luoh-blog@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
+  img: https://i1.wp.com/cdn.cbd.int/luoh-blog-static@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
   effect: false
 
 toc:
@@ -373,9 +373,9 @@ footer:
   runtime:
     enable: false
     launch_time: 04/23/2024 00:00:00 # 网站上线时间
-    work_img: https://cdn.cbd.int/luoh-blog@0.0.1/image/落渐离-苦逼学生者.svg
+    work_img: https://cdn.cbd.int/luoh-blog-static@0.0.1/image/落渐离-苦逼学生者.svg
     work_description: 在下乃苦逼学生者
-    offduty_img: https://cdn.cbd.int/luoh-blog@0.0.1/image/落渐离-苦逼学生者.svg
+    offduty_img: https://cdn.cbd.int/luoh-blog-static@0.0.1/image/落渐离-苦逼学生者.svg
     offduty_description: 在下乃苦逼学生者
   # 徽标部分配置项
   bdageitem:
@@ -385,7 +385,7 @@ footer:
         shields: https://cdn.cbd.int/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo_v5.4.0 #徽标提示语
       - link: https://cdn.cbd.int/
-        shields: https://cdn.cbd.int/luoh-blog@0.0.7/image/svg/CDN-cdn.cbd.int-darkgreen.svg
+        shields: https://cdn.cbd.int/luoh-blog-static@0.0.7/image/svg/CDN-cdn.cbd.int-darkgreen.svg
         message: 本站使用cdn.cbd.int为静态资源提供CDN加速
       - link: https://github.com/
         shields: https://cdn.cbd.int/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
@@ -433,7 +433,7 @@ footer:
 
 # 51a统计配置
 LA:
-  enable: true
+  enable: false
   ck: # 3J4jpflGza04donK
   LingQueMonitorID: # 3JBt9UjSP6o0Fuqu
 
@@ -463,14 +463,15 @@ theme_color:                   # 主题颜色配置的开始
   
 inject:
   head:
-    # - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog@0.0.2/css/font.css"> # 字体
-    - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog@0.0.2/css/home.css"> # 首页文章卡片擦亮效果
-    #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog@0.0.2/css/welcome.css"> # 个性定位欢迎
-    #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog@0.0.2/css/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.1.3-rc.1/css/font.css"> # 字体
+    - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/home.css"> # 首页文章卡片擦亮效果
+    #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/welcome.css"> # 个性定位欢迎
+    #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://cdn.cbd.int/cn-fontsource-lxgw-wen-kai-gb-screen/font.css"></link>
   bottom:
     - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> # jquery.min.js
-    #- <script defer="true" src="https://cdn.cbd.int/luoh-blog@0.0.2/js/welcome.js"></script> # 个性定位欢迎信息
-    #- <script async data-pjax src="https://cdn.cbd.int/luoh-blog@0.0.2/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+    #- <script defer="true" src="https://cdn.cbd.int/luoh-blog-static@0.0.2/js/welcome.js"></script> # 个性定位欢迎信息
+    #- <script async data-pjax src="https://cdn.cbd.int/luoh-blog-static@0.0.2/js/imgloaded.js?1"></script> # 首页图片渐进式加载
 
 lazyload:
   enable: true
@@ -497,11 +498,3 @@ ptool:
   share_copyurl: true
   categories: false # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
-
-# Umami
-Umami:
-  enable: false # 开关
-  umami_url_js: https://um.ruom.top/script.js # 填写 umami js地址 可以使用第三方CDN加速但需要配置下面的 umami_url
-  umami_id: 0766 # 填写 umami 统计 ID
-  umami_api: https://img.ruom.top/umami/ # 填写 umami API 地址
-  umami_url: # https://um.ruom.top 填写 umami 服务器地址 使用 CDN 加速 Umami 静态资源后需配置此项
