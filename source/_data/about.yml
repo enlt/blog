@@ -73,21 +73,33 @@
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
-      - name: 约定的梦幻岛
-        href: https://www.bilibili.com/bangumi/media/md5267750/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/27/647166c44b414.webp
-      - name: 咒术回战
-        href: https://www.bilibili.com/bangumi/media/md28229899/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db4398832e.webp
-      - name: 紫罗兰永恒花园
-        href: https://www.bilibili.com/bangumi/media/md8892/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db43983d99.webp
-      - name: 鬼灭之刃
-        href: https://www.bilibili.com/bangumi/media/md22718131/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/24/646db439856a0.webp
-      - name: JOJO的奇妙冒险 黄金之风
-        href: https://www.bilibili.com/bangumi/media/md135652/?spm_id_from=666.25.b_6d656469615f6d6f64756c65.1
-        cover: https://bu.dusays.com/2023/05/30/64760e38d651a.webp
+      - name: 斗破苍穹
+        href: https://v.qq.com/x/cover/mzc0020027yzd9e.html
+        cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/799226.webp
+      - name: 吞噬星空
+        href: https://v.qq.com/x/cover/324olz7ilvo2j5f.html
+        cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/006897.webp
+      - name: 斗罗大陆2
+        href: https://v.qq.com/x/cover/mzc00200xf3rir6.html
+        cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/784487.webp
+      - name: 遮天
+        href: https://v.qq.com/x/cover/mzc00200n53vkqc.html
+        cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/995353.webp
+      - name: 斩神之凡尘神域
+        href: https://v.qq.com/x/cover/mzc002006znrsl7.html
+        cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/446874.webp
+      - name: 仙逆
+        href: https://v.qq.com/x/cover/mzc00200aaogpgh.html
+        cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/060044.webp
+      - name: 剑来
+        href: https://v.qq.com/x/cover/mzc0020072zgk61.html
+        cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/21/159039.webp
+      - name: 神印王座
+        href: https://v.qq.com/x/cover/mzc002007j7p5hn.html
+        cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/791638.webp
+      - name: 完美世界
+        href: https://v.qq.com/x/cover/mcv8hkc8zk8lnov.html
+        cover: https://i1.wp.com/pic.chino.my.to/i/2024/08/17/765216.webp
   like:
     like_tips: 关注偏好
     like_title: 前沿AI

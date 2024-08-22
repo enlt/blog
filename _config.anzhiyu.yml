@@ -11,15 +11,16 @@ menu:
 
   我的:
     音乐馆: https://music.luoh.pages.dev/ || anzhiyu-icon-music
-    相册集: /album/ || anzhiyu-icon-images
-    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-    MIKUTAP: https://mikutap.luoh.pages.dev/ || fa-solid fa-guitar
     
-  其它:
-    小空调: /air-conditioner/ || anzhiyu-icon-fan
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
     留言板: /comments/ || anzhiyu-icon-envelope
     
-  关于:
+  玩耍:
+    小空调: /air-conditioner/ || anzhiyu-icon-fan
+    MIKUTAP: https://mikutap.luoh.pages.dev/ || fa-solid fa-guitar
+    E-木鱼: /electron-fish/ || fa-solid fa-fish
+    
+  本站:
     关于本人: /about/ || anzhiyu-icon-paper-plane
     随便逛逛: javascript:toRandomPost() || fa-solid fa-shoe-prints
 
@@ -33,11 +34,10 @@ author_status:
   enable: true
   statusImg: ""
   skills:
-    - 平平无奇的学生
-    - 喜欢看书,喜欢动漫
-    - 喜欢学习,喜欢美食
-    - 喜欢编程,喜欢音乐
-    - 喜欢阅读,喜欢写作
+    - 清风跃窗台
+    - 明玉挂银带
+    - 身居最高层
+    - 侧躺把星摘
 
 # 标签卖萌
 diytitle:
@@ -56,7 +56,7 @@ reward:
 
 # 欢迎语配置
 greetingBox:
-  enable: true
+  enable: false
   default: 晚上好👋
   list:
     - greeting: 晚安😴
@@ -143,14 +143,14 @@ related_post:
   date_type: created
 
 translate:
-  enable: true
+  enable: false
   default: 繁
   defaultEncoding: 2
   translateDelay: 0
   msgToTraditionalChinese: "繁"
-  msgToSimplifiedChinese: "简"    
+  msgToSimplifiedChinese: "简"
 
-readmode: true
+readmode: false
 
 aside:
   enable: true               # 是否启用侧边栏
@@ -164,11 +164,11 @@ aside:
     category: true           # 是否在分类页面显示
   card_author:
     enable: true           # 是否启用作者卡片
-    description: 平平无奇的学生<br>喜欢看书,喜欢动漫<br>喜欢旅行,喜欢美食<br>喜欢摄影,喜欢音乐<br>喜欢折腾,喜欢DIY<br>喜欢阅读,喜欢写作
+    description: 清风跃窗台<br>明玉挂银带<br>身居最高层<br>侧躺把星摘
     name_link: /about        # 作者链接
   card_announcement:
     enable: true
-    content: <img src='https://api.luoh.my.to/daysign.php'>   # 公告内容
+    content: 推荐使用Edge浏览器访问本站 # <img src='https://api.luoh.my.to/daysign.php'>   # 公告内容
   card_weixin:
     enable: false             # 是否启用微信卡片
     face:      # 正面图片链接
@@ -265,7 +265,7 @@ home_top:
   timemode: date #date/updated
   title: 一缕红线落人间
   subTitle: 半壶清酒破三弦
-  siteText: luoh.pages.dev
+  siteText: 仅望得君欢
   category:
     - name: 教程
       path: /categories/教程/
@@ -282,14 +282,14 @@ home_top:
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
-  default_descr: 再怎么看我也不知道怎么描述它的啦！
+  default_descr: 万军争战于世间
   swiper:
     enable: false
     swiper_css: https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
-    tips: 置顶
-    title: 落渐离
+    tips: TOP
+    title: 花间一壶酒，剑客于千秋。
     image: https://cdn.cbd.int/luoh-blog-static@0.0.8/image/webp/banner-image.webp #https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722229480952.webp
     link: https://luoh.pages.dev/
 
@@ -348,13 +348,16 @@ avatar:
 
 toc:
   post: true
-  page: true
+  page: false
   number: true
   expand: false
   style_simple: false # for post
 
-post_head_ai_description:
-  enable: false
+mainTone:
+  enable: true
+  mode: api 
+  api: https://api.qjqq.cn/api/Imgcolor?img=
+  cover_change: true
 
 # 留言弹幕配置
 # comment_barrage_config:
@@ -383,16 +386,19 @@ footer:
     list:
       - link: https://hexo.io/ #徽标指向网站链接
         shields: https://cdn.cbd.int/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
-        message: 博客框架为Hexo_v5.4.0 #徽标提示语
+        message: 博客框架为Hexo #徽标提示语
       - link: https://cdn.cbd.int/
-        shields: https://cdn.cbd.int/luoh-blog-static@0.0.7/image/svg/CDN-cdn.cbd.int-darkgreen.svg
-        message: 本站使用cdn.cbd.int为静态资源提供CDN加速
+        shields: https://cdn.cbd.int/luoh-blog-static@0.1.4-rc.2/image/svg/CDN-Unpkg-green.svg
+        message: 本站使用Unpkg为静态资源提供CDN加速
       - link: https://github.com/
         shields: https://cdn.cbd.int/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
         message: 本站项目由Github托管
       - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
         shields: https://cdn.cbd.int/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
+      - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
+        shields: https://cdn.cbd.int/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
+        message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
   socialBar:
     enable: false
   list:
@@ -426,10 +432,10 @@ footer:
   footerBar:
     enable: true
     cc:
-      enable: false
+      enable: true
     linkList:
-      - link: https://luoh.pages.dev/privacy/
-        text: 协议
+      - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
+        text: 主题
 
 # 51a统计配置
 LA:
@@ -472,11 +478,12 @@ inject:
     - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> # jquery.min.js
     #- <script defer="true" src="https://cdn.cbd.int/luoh-blog-static@0.0.2/js/welcome.js"></script> # 个性定位欢迎信息
     #- <script async data-pjax src="https://cdn.cbd.int/luoh-blog-static@0.0.2/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+    - <script type="text/javascript" src="https://cdn.cbd.int/luoh-blog-static@0.1.4-rc.6/js/clarity.microsoft.js"></script>
 
 lazyload:
   enable: true
   field: post
-  placeholder: /img/loading.gif
+  placeholder: https://cdn.cbd.int/luoh-blog-static@0.1.4-rc.5/image/gif/loading.gif
   blur: true
   progressive: true
   extend:
@@ -498,3 +505,15 @@ ptool:
   share_copyurl: true
   categories: false # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
+
+# 文章顶部ai摘要
+post_head_ai_description:
+  enable: true
+  gptName: LuoH
+  mode: local # 默认模式 可选值: tianli/local
+  switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
+  btnLink: https://luoh.pages.dev/
+  randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
+  basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
+  key: x
+  Referer: https://xx.xx/

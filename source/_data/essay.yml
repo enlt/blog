@@ -1,5 +1,5 @@
 - title: 即刻短文
-  subTitle: 学生的日常生活等...
+  subTitle: 学生的日常思想
   tips: 随时随地，分享生活
   buttonText: 关于我
   buttonLink: /about/
@@ -16,14 +16,13 @@
       # from:
       # address:
       # link:
+    - content: 换个主题还崩了，换回anheyu～
+      date: 2024/08/21
     - content: Qexo搭建成功
       date: 2024/08/15
       from: 落渐离
     - content: 又是一番缝补
       date: 2024/07/29
-      from: 落渐离
-    - content: serv00的服务器，afraid的域名，凑合
-      date: 2024/07/27
       from: 落渐离
     - content: 几番优化初具雏形
       date: 2024/07/25
