@@ -5025,7 +5025,7 @@
                 ["render", Yl]
             ]);
         var Zl = Jl;
-        const Ql = Uo('<div class="icp"><span>© 2024</span><a href="https://luoh.pages.dev" target="_blank">落渐离</a><button class="logo-btn">提示</button><div class="logotitle"><span>为避免性能问题，建议不要连续做图，经常<a href="/">刷新页面</a></span><br><span class="highlight"><strong>重要提示：请确保您的浏览器和设备性能良好</strong></span><br><span>由<a href="https://bsgun.cn/">梦爱吃鱼</a>制作</span></div></div>', 13),
+        const Ql = Uo('<div class="icp"><span>© 2024</span><a href="https://luoh.pages.dev" target="_blank">落渐离</a><button class="logo-btn">提示</button><div class="logotitle"><span>为避免性能问题，建议不要连续做图，经常<a href="/">刷新页面</a></span><br><span class="highlight"><strong>重要提示：请确保您的浏览器和设备性能良好</strong></span><br><span>修改自<a href="https://cover.ruom.top/">梦爱吃鱼</a></span></div></div>', 13),
             ea = [Ql];
 
         function ta(e, t) {
