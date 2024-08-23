@@ -2,9 +2,8 @@
 abbrlink: 5a8a6c8d
 ai:
 - 本教程介绍了如何在博客中安装基于Hexo主题的安知鱼主题，并提供了安装、应用主题、修改配置文件、本地启动等详细步骤及技术支持方式。教程的内容针对最新的主题版本进行更新，如果你是旧版本教程会有出入。
-- 本文真不错
 categories: []
-cover: https://pic.chino.my.to/i/2024/08/23/818578.webp
+cover: https://pic.chino.my.to/i/2024/08/23/460580.webp
 date: '2024-07-31T11:25:00+08:00'
 tags:
 - api

@@ -308,7 +308,7 @@ agreementPopup:
   enable: true
   url: /privacy
 
-# cloudflare_analytics: 0397e7c7e9b3419297d8905f4048b0ff
+cloudflare_analytics: 902ecdcc7f2347fca972213c3688b1ac
 # google_analytics: G-8NY3DHQBJB
 
 nav_music:
