@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-
-<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Cover</title>
+    <title>Mini-Cover</title>
     <link rel="icon" href="/favicon.ico">
-    <meta name="description" content="简洁的在线生成封面网站，专为博客、短视频、社交媒体等生成个性化封面。">
+    <meta name="description" content="Mini-Cover：简洁的在线生成封面网站，专为博客、短视频、社交媒体等生成个性化封面。">
     <meta name="keywords" content="在线封面生成器, 封面生成工具, 个性化封面设计, 封面模板, 创意封面设计, 社交媒体封面, 视觉作品封面, 快速封面生成">
     <!-- IE 淘汰 -->
     <script>
-        if (false || (!!window.MSInputMethodContext && !!document.documentMode))
-            window.location.href =
-            'https://support.dmeng.net/upgrade-your-browser.html?referrer=' +
-            encodeURIComponent(window.location.href);
+      if (false || (!!window.MSInputMethodContext && !!document.documentMode))
+        window.location.href =
+          'https://support.dmeng.net/upgrade-your-browser.html?referrer=' +
+          encodeURIComponent(window.location.href);
     </script>
-    <script type="text/javascript">
+    <!-- 禁用右键 -->
+    <script>
+      document.oncontextmenu = function () {
+        return false;
+      };
+    </script>
+        <script type="text/javascript">
         (function(c, l, a, r, i, t, y) {
             c[a] = c[a] || function() {
                 (c[a].q = c[a].q || []).push(arguments)
@@ -28,24 +33,15 @@
             y.parentNode.insertBefore(t, y);
         })(window, document, "clarity", "script", "nr7vz7ymvx");
     </script>
-    <!-- 禁用右键 -->
-    <script>
-        document.oncontextmenu = function() {
-            return false;
-        };
-    </script>
     <!-- 字体 -->
-    <link rel="stylesheet" href="https://cdn.cbd.int/cn-fontsource-lxgw-wen-kai-gb-screen/font.css">
-    <script defer src="app.js"></script>
-</head>
-
-<body>
+    <link rel="stylesheet" href="https://cdn.jsdmirror.com/npm/cn-fontsource-lxgw-wen-kai-gb-screen/font.css">
+  <script defer src="app.js"></script></head>
+  <body>
     <!-- 主体内容 -->
     <div id="app"></div>
     <!-- noscript -->
     <noscript>
-        <div style="text-align: center">请开启 JavaScript</div>
+      <div style="text-align: center">请开启 JavaScript</div>
     </noscript>
-</body>
-
+  </body>
 </html>
