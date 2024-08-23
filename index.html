@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>表情展示</title>
+    <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.1.4/font/zixiaohunxuegenyuankaishu_trial/result.css">
+    <style>
+        body {
+            font-family: 'zixiaohunxuegenyuankaishu_trial', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+        }
+        h1 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+        }
+        .emoji-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .emoji-category {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            transition: box-shadow 0.3s ease;
+        }
+        .emoji-category:hover {
+            transform: none;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .emoji-category h2 {
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 1.6rem;
+            color: #444;
+            transition: color 0.3s ease;
+        }
+        .emoji-category:hover h2 {
+            color: #007bff;
+        }
+        .emoji {
+            display: inline-block;
+            margin: 10px;
+            position: relative;
+            cursor: pointer;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .emoji:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        .emoji img {
+            width: 48px;
+            height: 48px;
+            object-fit: cover;
+            display: none;
+            transition: opacity 0.3s ease;
+        }
+        .loading {
+            width: 48px;
+            height: 48px;
+            background: url('https://cdn.cbd.int/luoh-blog-static@0.1.4-rc.8/image/gif/loading.gif') no-repeat center;
+            background-size: contain;
+            position: absolute;
+            top: 0;
+            left: 0;
+            transition: opacity 0.3s ease;
+        }
+        .loading.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        .tooltip {
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1rem;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            pointer-events: none;
+            z-index: 1000;
+        }
+        .tooltip.visible {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>表情一览</h1>
+    <br>
+    <div id="emoji-container" class="emoji-container"></div>
+
+    <div id="tooltip" class="tooltip">已复制到剪贴板</div>
+
+    <script>
+        const observer = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const emojiDiv = entry.target;
+                    const img = emojiDiv.querySelector('img');
+                    if (img && img.dataset.src) {
+                        img.src = img.dataset.src;
+                        img.removeAttribute('data-src');
+                    }
+                    observer.unobserve(emojiDiv);
+                }
+            });
+        }, { rootMargin: '0px', threshold: 0.1 });
+        fetch('https://cdn.cbd.int/luoh-blog-static@0.1.4-rc.8/emoji/emoji.json')
+            .then(response => response.json())
+            .then(data => {
+                const container = document.getElementById('emoji-container');
+                for (const category in data) {
+                    const categoryDiv = document.createElement('div');
+                    categoryDiv.className = 'emoji-category';
+                    const categoryTitle = document.createElement('h2');
+                    categoryTitle.textContent = category;
+                    categoryDiv.appendChild(categoryTitle);
+                    data[category].container.forEach((emoji, index) => {
+                        const emojiDiv = document.createElement('div');
+                        emojiDiv.className = 'emoji';
+                        emojiDiv.id = `emoji-${category}-${index}`; 
+                        emojiDiv.dataset.url = emoji.icon.match(/src="([^"]+)"/)[1]; 
+                        const tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = emoji.icon;
+                        const imgTag = tempDiv.querySelector('img');
+                        if (imgTag) {
+                            const img = document.createElement('img');
+                            img.dataset.src = imgTag.src;  
+                            img.classList.add('loading');  
+                            const loadingDiv = document.createElement('div');
+                            loadingDiv.className = 'loading';
+                            emojiDiv.appendChild(loadingDiv);
+                            img.onload = () => {
+                                loadingDiv.classList.add('hidden'); 
+                                img.style.display = 'block'; 
+                                img.classList.remove('loading'); 
+                                img.style.opacity = 1; 
+                            };
+                            img.onerror = () => {
+                                loadingDiv.classList.add('hidden'); 
+                                
+                            };
+                            emojiDiv.appendChild(img);
+                            observer.observe(emojiDiv);
+                        }
+                        emojiDiv.addEventListener('click', () => {
+                            const imageUrl = emojiDiv.dataset.url; 
+                            const filename = imageUrl.substring(imageUrl.lastIndexOf('/') + 1, imageUrl.lastIndexOf('.'));
+                            const formattedText = `:${filename}:`;
+                            navigator.clipboard.writeText(formattedText).then(() => {
+                                const tooltip = document.getElementById('tooltip');
+                                tooltip.classList.add('visible');
+                                tooltip.textContent = `${formattedText}`;
+                                setTimeout(() => {
+                                    tooltip.classList.remove('visible');
+                                }, 1000);
+                            });
+                        });
+                        categoryDiv.appendChild(emojiDiv);
+                    });
+                    container.appendChild(categoryDiv);
+                }
+            })
+            .catch(error => console.error('Error:', error));
+    </script>
+</body>
+</html>
