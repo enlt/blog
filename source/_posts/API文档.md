@@ -28,9 +28,13 @@ updated: '2024-08-23T09:45:36.982+08:00'
 **请求方法** `GET` <br>
 **请求参数说明**
 
+<div class="APITable">
+
 | 名称 | 必填 | 类型 | 说明 |
-| :-: | :-: | :-: | :-: |
+| - | - | - | - |
 | date | 否 | string | `{month}{day}` <br> 例如 `1010` 及表示 `十月十日`的历史 <br> `0101` 即表示 `一月一日` 的历史 <br> 不填写时默认为今日日期 |
+
+</div>
 
 <br>
 
@@ -55,9 +59,10 @@ updated: '2024-08-23T09:45:36.982+08:00'
 <br>
 
 **返回参数说明**
+<div class="APITable">
 
 | 名称 | 类型 | 说明 |
-| :-: | :-: | :-: |
+| - | - | - |
 | year | string | 年份 |
 | title | string | 该历史精简概括 |
 | festival | string | 节日 |
@@ -66,6 +71,10 @@ updated: '2024-08-23T09:45:36.982+08:00'
 | cover | boolean | 是否有图片 |
 | recommed | boolean | 是否推荐 |
 | baike | string | 百科链接 |
+
+</div>
+
+*其余不做解释*
 
 <br>
 
@@ -82,9 +91,13 @@ updated: '2024-08-23T09:45:36.982+08:00'
 **请求方法** `GET` <br>
 **请求参数说明**
 
+<div class="APITable">
+
 | 名称 | 必填 | 类型 | 说明 |
-| :-: | :-: | :-: | :-: |
+| - | - | - | - |
 | msg | 是 | string | 需要查询的星座 <br> 例如 `白羊` `双子座` <br>` 座` 可加可不加 |
+
+</div>
 
 <br>
 
@@ -112,10 +125,14 @@ updated: '2024-08-23T09:45:36.982+08:00'
 
 **返回参数说明**
 
+<div class="APITable">
+
 | 名称 | 类型 | 说明 |
-| :-: | :-: | :-: |
+| - | - | - |
 | status | int | 状态码 |
 | data | object | 该星座运势详细内容 |
+
+</div>
 
 *其余不作解释*
 
@@ -136,10 +153,14 @@ updated: '2024-08-23T09:45:36.982+08:00'
 **请求方法** `GET` <br>
 **请求参数说明**
 
+<div class="APITable">
+
 | 名称 | 必填 | 类型 | 说明 |
-| :-: | :-: | :-: | :-: |
-| t | 是 | string | 获取哪一类的图片 <br> 详情查看 [此处](#) |
+| - | - | - | - |
+| t | 是 | string | 获取哪一类的图片 <br> 详情查看 [此处](#3-1-AnimeImage) |
 | r | 否 | string | 返回格式 <br> 可选择 `json` `images` <br> 默认为 `image` |
+
+</div>
 
 <br>
 
@@ -156,10 +177,14 @@ updated: '2024-08-23T09:45:36.982+08:00'
 
 **返回参数说明**
 
+<div class="APITable">
+
 | 名称 | 类型 | 说明 |
-| :-: | :-: | :-: |
+| - | - | - |
 | status | int | 状态码 |
 | url | string | 图片链接 |
+
+</div>
 
 <br>
 
@@ -172,15 +197,19 @@ updated: '2024-08-23T09:45:36.982+08:00'
 
 ### 2.2.2 Emoticon
 
-{% folding blue open, 动漫趋向图片 %}
+{% folding blue open, 表情包 %}
 **接口地址**  <span id="Emoticon" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/PicLibrary/Emoticon/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
+<div class="APITable">
+
 | 名称 | 必填 | 类型 | 说明 |
-| :-: | :-: | :-: | :-: |
-| t | 是 | string | 获取哪一类的图片 <br> 详情查看 [此处](#) |
+| - | - | - | - |
+| t | 是 | string | 获取哪一类的图片 <br> 详情查看 [此处](#3-2-Emoticon) |
 | r | 否 | string | 返回格式 <br> 可选择 `json` `images` <br> 默认为 `image` |
+
+</div>
 
 <br>
 
@@ -197,10 +226,14 @@ updated: '2024-08-23T09:45:36.982+08:00'
 
 **返回参数说明**
 
+<div class="APITable">
+
 | 名称 | 类型 | 说明 |
-| :-: | :-: | :-: |
+| - | - | - |
 | status | int | 状态码 |
 | url | string | 图片链接 |
+
+</div>
 
 <br>
 
@@ -218,9 +251,13 @@ updated: '2024-08-23T09:45:36.982+08:00'
 **请求方法** `GET` <br>
 **请求参数说明**
 
+<div class="APITable">
+
 | 名称 | 必填 | 类型 | 说明 |
-| :-: | :-: | :-: | :-: |
+| - | - | - | - |
 | r | 否 | string | 返回格式 <br> 可选择 `json` `images` <br> 默认为 `image` |
+
+</div>
 
 <br>
 
@@ -237,10 +274,14 @@ updated: '2024-08-23T09:45:36.982+08:00'
 
 **返回参数说明**
 
+<div class="APITable">
+
 | 名称 | 类型 | 说明 |
-| :-: | :-: | :-: |
+| - | - | - |
 | status | int | 状态码 |
 | url | string | 图片链接 |
+
+</div>
 
 <br>
 
@@ -258,10 +299,14 @@ updated: '2024-08-23T09:45:36.982+08:00'
 **请求方法** `GET` <br>
 **请求参数说明**
 
+<div class="APITable">
+
 | 名称 | 必填 | 类型 | 说明 |
-| :-: | :-: | :-: | :-: |
-| t | 是 | string | 获取哪一类的图片 <br> 详情查看 [此处](#) |
+| - | - | - | - |
+| t | 是 | string | 获取哪一类的图片 <br> 详情查看 [此处](#3-3-RealImage) |
 | r | 否 | string | 返回格式 <br> 可选择 `json` `images` <br> 默认为 `image` |
+
+</div>
 
 <br>
 
@@ -278,10 +323,14 @@ updated: '2024-08-23T09:45:36.982+08:00'
 
 **返回参数说明**
 
+<div class="APITable">
+
 | 名称 | 类型 | 说明 |
-| :-: | :-: | :-: |
+| - | - | - |
 | status | int | 状态码 |
 | url | string | 图片链接 |
+
+</div>
 
 <br>
 
@@ -316,9 +365,14 @@ updated: '2024-08-23T09:45:36.982+08:00'
 **请求方法** `GET` <br>
 **请求参数说明**
 
+<div class="APITable">
+
 | 名称 | 必填 | 类型 | 说明 |
-| :-: | :-: | :-: | :-: |
+| - | - | - | - |
 | date | 否 | string | `Y-m-d` <br> 例如 `2024-08-24` |
+
+</div>
+
 <br>
 
 **返回示例**
@@ -341,8 +395,10 @@ updated: '2024-08-23T09:45:36.982+08:00'
 
 **返回参数说明**
 
+<div class="APITable">
+
 | 名称 | 类型 | 说明 |
-| :-: | :-: | :-: |
+| - | - | - |
 | date | string | 阳历日期 |
 | dateD | int | 阳历日期-日 |
 | dateM | int | 阳历日期-月 |
@@ -350,6 +406,8 @@ updated: '2024-08-23T09:45:36.982+08:00'
 | week | string | 星期 |
 | lunardate | string | 天支地干型日期 |
 | text | string | 随机诗词 |
+
+</div>
 
 <br>
 
@@ -366,9 +424,13 @@ updated: '2024-08-23T09:45:36.982+08:00'
 **请求方法** `GET` <br>
 **请求参数说明**
 
+<div class="APITable">
+
 | 名称 | 必填 | 类型 | 说明 |
-| :-: | :-: | :-: | :-: |
+| - | - | - | - |
 | timezone | 否 | string | `时区` <br> 例如 `America/New_York` <br> 默认为 `Asia/Shanghai` <br> 时区总汇可查看[此处](https://www.php.net/manual/zh/timezones.php) <br> 不可识别 UTC类型 |
+
+</div>
 
 <br>
 
@@ -392,8 +454,10 @@ updated: '2024-08-23T09:45:36.982+08:00'
 
 **返回参数说明**
 
+<div class="APITable">
+
 | 名称 | 类型 | 说明 |
-| :-: | :-: | :-: |
+| - | - | - |
 | date | string | 日期 |
 | year | int | 年 |
 | month | int | 月 |
@@ -403,6 +467,8 @@ updated: '2024-08-23T09:45:36.982+08:00'
 | second | string | 秒 |
 | timezone | string | 当前时区 |
 | timestamp| int | Unix 时间戳 |
+
+</div>
 
 <br>
 
@@ -438,12 +504,16 @@ updated: '2024-08-23T09:45:36.982+08:00'
 
 **返回参数说明**
 
+<div class="APITable">
+
 | 名称 | 类型 | 说明 |
-| :-: | :-: | :-: |
+| - | - | - |
 | code | int | 状态码 |
 | data | object | 数据 |
 | ip | string | IP 地址 |
 | city | string | 所在地 |
+
+</div>
 
 <br>
 
@@ -451,6 +521,180 @@ updated: '2024-08-23T09:45:36.982+08:00'
 <span id="GetIP" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/RiliTools/GetIP/`</code></span>
 
  {% endfolding %}
+
+
+### 2.4.2 QRCode
+
+{% folding blue open, 二维码生成 %}
+**接口地址**  <span id="QRCode" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/ToolBox/QRCode/`</code></span>
+**请求方法** `GET` <br>
+**请求参数说明**
+
+<div class="APITable">
+
+| 名称 | 必填 | 类型 | 说明 |
+| - | - | - | - |
+| m | 否 | string | 扫描时需要显示的文字 或 跳转的网址 <br> 默认为 `Hello,World!` |
+| t | 否 | string | 是否直接下载 <br> 为否时则显示在页面 <br> 默认为 `否` |
+
+</div>
+
+<br>
+
+**请求示例**
+<span id="QRCode" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/ToolBox/QRCode/?m=你好，访客！`</code></span>
+![QRCode](https://api.luoh.my.to/New/ToolBox/QRCode/?m=你好，访客。)
+
+ {% endfolding %}
+
+
+## 2.5 Yiyan
+
+{% folding blue open, 随机一言 %}
+**接口地址**  <span id="Yiyan" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/Yiyan/`</code></span>
+**请求方法** `GET` <br>
+**请求参数说明**
+
+<div class="APITable">
+
+| 名称 | 必填 | 类型 | 说明 |
+| - | - | - | - |
+| t | 是 | string | 一言的类型 <br> 详情查看 [此处](#3-4-Yiyan) |
+
+</div>
+
+<br>
+
+**返回示例**
+
+```txt
+天之道，损有余而补不足。
+```
+
+<br>
+
+**请求示例**
+<span id="Yiyan" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/Yiyan/?t=诗词`</code></span>
+
+ {% endfolding %}
+
+
+# 3. 补充说明
+
+## 3.1 AnimeImage
+
+{% folding blue open, AnimeImage %}
+此处为 [AnimeImage](#2-2-1-AnimeImage) 的详情介绍
+
+<div class="APITable">
+
+| 类型 | 描述 |
+| - | - |
+| anime/first | 质量高等 |
+| anime/second | 质量中等 |
+| anime/third | 质量中下等 |
+| anime/genshin | 原神类 |
+| anime/mobile | 手机尺寸 |
+| avatar/dongm | 动漫类 |
+| avatar/guf | 古风类 |
+| avatar/kat | 卡通类 |
+| avatar/kea | 可爱类 |
+| avatar/random | 随机 |
+| mc| mc酱 |
+| pixiv| p站 |
+| wallpaper | 壁纸 |
+| yourname | 你的名字 |
+
+</div>
+
+ {% endfolding %}
+
+
+## 3.2 Emoticon
+
+{% folding blue open, Emoticon %}
+此处为 [Emoticon](#2-2-2-Emoticon) 的详情介绍
+
+<div class="APITable">
+
+| 类型 | 描述 |
+| - | - |
+| capoo | 猫猫虫咖波 |
+| cecilia | 塞西莉娅 |
+| ceciliabqb | 塞西莉娅（黑白） |
+| cheshire | 柴郡猫 |
+| ecy | 二次元表情包 |
+| gcmm | 甘城猫猫 |
+| huaji | 滑稽 |
+| kemomimi | 兽耳酱 |
+| longtu | 龙图 |
+| luox | 罗翔 |
+| pand | 熊猫头 |
+| scymm | 三次元猫猫 |
+
+</div>
+
+ {% endfolding %}
+
+
+## 3.3 RealImage
+
+{% folding blue open, RealImage %}
+此处为 [RealImage](#2-2-4-RealImage) 的详情介绍
+
+<div class="APITable">
+
+| 类型 | 描述 |
+| - | - |
+| cat | 猫 |
+| scenery | 风景 |
+| wallpaper/mobile | 手机壁纸 |
+
+</div>
+
+ {% endfolding %}
+
+
+## 3.4 Yiyan
+
+{% folding blue open, Yiyan %}
+此处为 [Yiyan](#2-5-Yiyan) 的详情介绍
+
+<div class="APITable">
+
+| 类型 |
+| - |
+| 抖机灵 |
+| 网易云 |
+| 漫画 |
+| 影视 |
+| 哲学 |
+| 诗词 *多是名句* |
+| 其他 |
+| 游戏 |
+| 网络 |
+| 原创 |
+| 动画 |
+| 文学 |
+| 诗词/all *10000句* |
+| 诗词/水墨唐诗 |
+| 诗词/纳兰性德 |
+| 蒙学/朱子家训 |
+| 蒙学/百家姓 |
+| 蒙学/弟子规 |
+| 蒙学/三字经 |
+| 蒙学/千家诗 |
+| 蒙学/增广贤文 |
+
+</div>
+
+ {% endfolding %}
+
+# 4. 随说
+
+- 使用时会记录你的IP，但不会进行公开
+- 未做任何频率限制，但也请不要不断请求以获取所有资源  <br> 如有需要可评论留言 可能给予资源
+- 其余疑问请在本章下留言
 
 <script>
 function CopyApiLink() {
@@ -473,5 +717,8 @@ function CopyApiLink() {
 }
 .API::-webkit-scrollbar {
   display: none;
+}
+.APITable {
+  text-align: center;
 }
 </style>
