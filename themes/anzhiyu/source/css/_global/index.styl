@@ -334,28 +334,34 @@ hr
 html
   overflow-y: overlay;
 .table-wrap
-  overflow-x: scroll
-  margin: 1rem 0;
-  border-radius: 8px;
+  overflow-x auto
+  margin 1rem 0
+  border-radius 8px
+  box-shadow 0 4px 8px rgba(0, 0, 0, 0.1)
+  -ms-overflow-style none
+  scrollbar-width none
 
 table
-  display: table
-  width: 100%
-  border-spacing: 0
-  border-collapse: collapse
-  empty-cells: show
-  if hexo-config('table_interlaced_discoloration')
-    tr:nth-child(even)
-      background-color: var(--anzhiyu-secondbg);
-  thead
-    background: var(--anzhiyu-secondbg);
+  width 100%
+  border-spacing 0
+  border-collapse collapse
+  empty-cells show
+  table-layout auto
+  -webkit-box-shadow 0 4px 8px rgba(0,0,0,0.1)
 
-  th,
-  td
-    padding: 0.3rem 0.6rem;
-    vertical-align: middle
-    border: var(--style-border-always);
+thead
+  background var(--anzhiyu-secondbg)
 
+th,
+td
+  padding 0.3rem 0.6rem
+  vertical-align middle
+  border var(--style-border-always)
+  white-space nowrap
+
+.table-wrap::-webkit-scrollbar
+  display none
+  
 *::selection
   background: $theme-text-selection-color
   color: #F7F7F7
