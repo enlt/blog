@@ -175,10 +175,10 @@ aside:
     category: true           # 是否在分类页面显示
   card_author:
     enable: true           # 是否启用作者卡片
-    description: 清风跃窗台<br>明玉挂银带<br>身居最高层<br>侧躺把星摘
+    description: <div style="text-align:center">清风跃窗台<br>明玉挂银带<br>身居最高层<br>侧躺把星摘</div>
     name_link: /about        # 作者链接
   card_announcement:
-    enable: true
+    enable: false
     content: 推荐使用Edge浏览器访问本站 # <img src='https://api.luoh.my.to/daysign.php'>   # 公告内容
   card_weixin:
     enable: false             # 是否启用微信卡片
@@ -308,8 +308,8 @@ agreementPopup:
   enable: true
   url: /privacy
 
-cloudflare_analytics: 902ecdcc7f2347fca972213c3688b1ac
-# google_analytics: G-8NY3DHQBJB
+# cloudflare_analytics: 902ecdcc7f2347fca972213c3688b1ac
+google_analytics: G-KZQLNK8CS7
 
 nav_music:
   enable: false
