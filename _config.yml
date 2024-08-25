@@ -130,6 +130,9 @@ envelope_comment:
     top_img: false
     # type: envelope    
 
+sitemap:
+  path: sitemap.xml
+
 # # 那年今日    
 # history_calendar:
   # priority: 4
