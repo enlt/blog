@@ -144,6 +144,38 @@ sitemap:
     # index: 0
   # temple_html: '<div class="card-widget card-history" style="margin-bottom: 17px;"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden;border-radius: 10px"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px;color:grey"></div></div></div></div></div>'
 
+sakana:
+  # 默认角色
+  character: chisato
+  # 是否启用
+  enable: true
+  # 是否在移动端启用
+  enable_mobile: true
+  #  组件大小，默认为 200
+  size: 200
+  # 自适应容器大小 （最小 120px）
+  # 另见：https://github.com/dsrkafuu/sakana-widget/blob/main/README.zh.md#%E8%87%AA%E5%8A%A8%E7%BC%A9%E6%94%BE
+  autoFit: true
+  # 组件据底部距离，需填写单位或百分号
+  bottom: 0px
+  # 是否启用控制栏
+  controls: false
+  # 线条设置
+  stroke:
+    # 颜色
+    color: "#b4b4b4"
+    # 粗细
+    width: 10
+  # 停止动画的阈值
+  threshold: 0.1
+  # 旋转角度
+  rotate: 0
+  # 自定义角色
+  # customCharacters:
+  #   - base: takina
+  #     name: takina1
+  #     ...
+
 search:
   path: search.xml
   field: post
