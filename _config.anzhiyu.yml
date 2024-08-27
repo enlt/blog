@@ -278,18 +278,18 @@ home_top:
   subTitle: 半壶清酒破三弦
   siteText: 仅望得君欢
   category:
-    - name: 教程
-      path: /categories/教程/
+    - name: 标签
+      path: /tags/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 技术
-      path: /categories/技术/
+    - name: 分类
+      path: /categories/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire
-    - name: 生活
-      path: /categories/生活/
+    - name: 归档
+      path: /archives/
       shadow: var(--anzhiyu-shadow-green)
       class: green
       icon: anzhiyu-icon-book
@@ -411,7 +411,22 @@ footer:
         shields: https://cdn.cbd.int/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
         message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
   socialBar:
-    enable: false
+    enable: true
+    centerImg:
+    left:
+      - title: email
+        link: mailto:enltic@outlook.com
+        icon: anzhiyu-icon-envelope
+      - title: RSS
+        link: atom.xml
+        icon: anzhiyu-icon-rss
+    right:
+      - title: Github
+        link: https://github.com/enlt
+        icon: anzhiyu-icon-github
+      - title: CC
+        link: /copyright
+        icon: anzhiyu-icon-copyright-line
   list:
     enable: true
     randomFriends: 0
@@ -514,6 +529,29 @@ ptool:
   share_copyurl: true
   categories: false # 是否显示分类
   mode: # 运营模式与责任，不配置不显示
+
+# Mouse click effects: words (鼠标点击效果: 文字)
+# ClickShowText:
+  # enable: true
+  # text:
+    # - 富强
+    # - 民主
+    # - 文明
+    # - 和谐
+    # - 自由
+    # - 平等
+    # - 公正
+    # - 法治
+    # - 爱国
+    # - 敬业
+    # - 诚信
+    # - 友善
+  # fontSize: 15px
+  # random: false
+  # mobile: true
+
+# Footer Background
+footer_bg: false
 
 # 文章顶部ai摘要
 post_head_ai_description:
