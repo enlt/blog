@@ -128,13 +128,13 @@ social:
 
 post_meta:
   page:
-    date_type: created
+    date_type: both
     date_format: relative
     categories: true
     tags: true
     label: true
   post:
-    date_type: boht
+    date_type: both
     date_format: relative
     categories: true 
     tags: true
@@ -497,6 +497,7 @@ inject:
   head:
     - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.1.3-rc.1/css/font.css"> # 字体
     - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/home.css"> # 首页文章卡片擦亮效果
+    - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.1.5-rc.2/css/SomeBeautify.css">
     #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/welcome.css"> # 个性定位欢迎
     #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="https://cdn.cbd.int/cn-fontsource-lxgw-wen-kai-gb-screen/font.css"></link>
