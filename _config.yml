@@ -197,7 +197,7 @@ hexo_safego:
   domain_whitelist:  # 域名白名单列表，包含白名单中的域名的链接将被忽略
     - 'luoh'
   apply_pages:  # 生效页面路径列表，只有在这些页面上才会对链接进行处理
-    - '/posts/'
+    - '/'
   avatar: https://i1.wp.com/cdn.cbd.int/luoh-blog-static@0.0.7/image/gif/avatar.gif  # 头像图片链接
   title: "落渐离"  # 标题
   subtitle: "安全中心"  # 副标题
