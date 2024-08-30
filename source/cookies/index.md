@@ -30,29 +30,12 @@ comments: false
 
 &emsp;&emsp;我将 Cookies 分为以下类别:
 
-<div class="table-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th align="left">用途</th><th align="center">说明</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="left">授权</td><td align="center">你访问我的网站时，我可通过 Cookie 提供正确信息，为你打造个性化的体验。例如：Cookie 会告知你通过搜索引擎搜索的具体内容来改善文章的标题优化关键词、或者创建更符合你搜索需求的文章内容。</td>
-      </tr>
-      <tr>
-        <td align="left">安全措施</td><td align="center">我通过 Cookie 启用及支持安全功能，监控和防止可疑活动、欺诈性流量和违反版权协议的行为。</td>
-      </tr>
-      <tr>
-        <td align="left">偏好、功能和服务</td><td align="center">我使用功能性 Cookies 来让我记住你的偏好，或保存你向我提供的有关你的喜好或其他信息。</td>
-      </tr>
-      <tr>
-        <td align="left">网站性能、分析和研究</td><td align="center">我使用这些 cookie 来监控网站性能。这使我能够通过快速识别和解决出现的任何问题来提供高质量的体验。</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| 用途 | 说明 |
+| - | - |
+| 授权 | 你访问我的网站时，我可通过 Cookie 提供正确信息，为你打造个性化的体验。例如：Cookie 会告知你通过搜索引擎搜索的具体内容来改善文章的标题优化关键词、或者创建更符合你搜索需求的文章内容。 |
+| 安全措施 | 我通过 Cookie 启用及支持安全功能，监控和防止可疑活动、欺诈性流量和违反版权协议的行为。 |
+| 偏好、功能和服务 | 我使用功能性 Cookies 来让我记住你的偏好，或保存你向我提供的有关你的喜好或其他信息。 |
+| 网站性能、分析和研究 | 我使用这些 cookie 来监控网站性能。这使我能够通过快速识别和解决出现的任何问题来提供高质量的体验。 |
 
 ## 我的网站上的第三方 Cookies
 
@@ -64,23 +47,10 @@ comments: false
 - 改善网站功能；
 - 监督我的版权协议和隐私政策的遵守情况。
 
-<div class="table-wrap">
-  <table>
-    <thead>
-      <tr>
-        <th align="left">第三方服务商</th><th align="center">用途</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="left">baidu.com</td><td align="center">用于统计站内访问情况，进行针对性优化</td>
-      </tr>
-      <tr>
-        <td align="left">bsz.dusays.com</td><td align="center">busuznzi 统计，用于区分访问 pv 数量和 uv 数量，在文章处展示人气</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| 第三方服务商 | 用途 |
+| - | - |
+| analysis.google.com | 用于统计站内访问情况，进行针对性优化 |
+| bsz.dusays.com | busuznzi 统计，用于区分访问 pv 数量和 uv 数量，在文章处展示人气 |
 
 ## 如何管理 Cookies？
 

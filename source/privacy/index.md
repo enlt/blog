@@ -6,7 +6,7 @@ comments: false
 aside: false
 ---
 
-&emsp;&emsp;本站非常重视用户的隐私和个人信息保护。你在使用网站时，可能会收集和使用你的相关信息。通过《隐私政策》向你说明在你访问 {% label luoh.my.to blue %} 网站时，如何收集、使用、保存、共享和转让这些信息。
+&emsp;&emsp;本站非常重视用户的隐私和个人信息保护。你在使用网站时，可能会收集和使用你的相关信息。通过《隐私政策》向你说明在你访问 {% label luoh.pages.dev blue %} 网站时，如何收集、使用、保存、共享和转让这些信息。
 
 ## 最新更新时间
 
@@ -27,6 +27,8 @@ aside: false
 &emsp;&emsp;- **Unpkg** 会收集你的访问信息
 &emsp;&emsp;- **busuanzi统计** 会收集你的访问信息
 &emsp;&emsp;- **jsDelivr** 会收集你的访问信息
+&emsp;&emsp;- **CloudFlare** 会收集你的访问信息
+&emsp;&emsp;- **Google** 会收集你的访问信息
 
 ### &emsp;&emsp;在访问时，本人仅会处于以下目的，使用你的个人信息：
 
@@ -76,6 +78,7 @@ aside: false
 &emsp;&emsp;**第三方服务**
 
 &emsp;&emsp;- busuanzi统计
+&emsp;&emsp;- Google Analytics
 
 &emsp;&emsp;关于如何使用你的Cookies，请访问[Cookies政策](https://se7en-n.github.io/cookies/)。
 
