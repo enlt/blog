@@ -80,7 +80,7 @@ aside: false
 &emsp;&emsp;- busuanzi统计
 &emsp;&emsp;- Google Analytics
 
-&emsp;&emsp;关于如何使用你的Cookies，请访问[Cookies政策](https://se7en-n.github.io/cookies/)。
+&emsp;&emsp;关于如何使用你的Cookies，请访问[Cookies政策](/cookies/)。
 
 &emsp;&emsp;关于如何[在 Chrome 中清除、启用和管理 Cookie](https://support.google.com/chrome/answer/95647?co=GENIE.Platform=Desktop&hl=zh-Hans)
 
