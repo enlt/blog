@@ -501,10 +501,13 @@ inject:
     #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/welcome.css"> # 个性定位欢迎
     #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/custom.css" media="defer" onload="this.media='all'">
     - <link rel="stylesheet" href="https://cdn.cbd.int/cn-fontsource-lxgw-wen-kai-gb-screen/font.css"></link>
+    - <link rel="stylesheet" href="https://cdn.cbd.int/sweetalert2@11.12.4/dist/sweetalert2.min.css"> # 弹窗
   bottom:
     - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> # jquery.min.js
     #- <script defer="true" src="https://cdn.cbd.int/luoh-blog-static@0.0.2/js/welcome.js"></script> # 个性定位欢迎信息
-    #- <script async data-pjax src="https://cdn.cbd.int/luoh-blog-static@0.0.2/js/imgloaded.js?1"></script> # 首页图片渐进式加载
+    #- <script async data-pjax src="https://cdn.cbd.int/luoh-blog-static@0.0.2/js/imgloaded.js"></script> # 首页图片渐进式加载
+    - <script src="https://cdn.cbd.int/sweetalert2@11.12.4"></script> # 弹窗
+    - <script src="https://cdn.cbd.int/luoh-blog-static@0.1.5-rc.3/js/swal2.js"></script> # 弹窗
 lazyload:
   enable: true
   field: post

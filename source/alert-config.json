@@ -1,0 +1,43 @@
+{
+  "open": true,
+  "forceNightMode": false,
+  "dayMode": {
+    "backgroundColor": "#ffffff",
+    "textColor": "#000000",
+    "buttonColor": "#007bff",
+    "buttonTextColor": "#ffffff"
+  },
+  "nightMode": {
+    "backgroundColor": "#333333",
+    "textColor": "#ffffff",
+    "buttonColor": "#6f42c1",
+    "buttonTextColor": "#ffffff"
+  },
+  "steps": [
+    {
+      "title": "步骤 1 标题",
+      "text": "步骤 1 内容",
+      "showCancelButton": true,
+      "confirmButtonText": "下一步 &rarr;",
+      "cancelButtonText": "取消"
+    },
+    {
+      "title": "步骤 2 标题",
+      "text": "步骤 2 内容",
+      "showCancelButton": true,
+      "inputType": "email",
+      "inputPlaceholder": "输入你的邮箱",
+      "confirmButtonText": "下一步 &rarr;",
+      "cancelButtonText": "取消"
+    },
+    {
+      "title": "步骤 3 标题",
+      "text": "步骤 3 内容",
+      "showCancelButton": false,
+      "inputType": "password",
+      "inputPlaceholder": "输入你的密码",
+      "confirmButtonText": "完成",
+      "cancelButtonText": "取消"
+    }
+  ]
+}
