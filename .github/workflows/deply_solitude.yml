@@ -1,0 +1,42 @@
+name: 自动部署 SOLITUDE
+
+on:
+  push:
+    branches:
+      - solitude
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v3
+      with:
+        submodules: false
+
+    - name: 设置 Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '22'
+
+    - name: 安装 Hexo
+      run: npm install hexo-cli -g
+
+    - name: 安装依赖项
+      run: npm install
+
+    - name: 清理文件
+      run: hexo clean
+
+    - name: 生成文件
+      run: hexo generate
+
+    - name: 部署至 Pages
+      run: |
+        git config --global user.name "enlt"
+        git config --global user.email "regretify@gmail.com"
+        git add -f public/
+        COMMIT_MESSAGE=$(date +"%Y-%m-%d %H:%M:%S")
+        git commit -m "$COMMIT_MESSAGE"
+        git push -f https://x-access-token:${{ secrets.TOKEN }}@github.com/enlt/blog.git `git subtree split --prefix public solitude`:refs/heads/blog
