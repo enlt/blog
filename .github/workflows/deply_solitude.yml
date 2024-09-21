@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - solitude
+  workflow_dispatch:    
 
 jobs:
   deploy:
