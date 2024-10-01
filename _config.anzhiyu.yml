@@ -557,6 +557,8 @@ ptool:
 # Footer Background
 footer_bg: false
 
+microsoft_clarity: oblr42fxsq
+
 # 文章顶部ai摘要
 post_head_ai_description:
   enable: true
