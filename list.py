@@ -3,7 +3,6 @@ import json
 # https://luoh.s3.bitiful.net/music/邓紫棋-倒数.mp3
 # https://cdn.cbd.int/luoh-blog-static@0.1.5-rc.5/lrc/
 def extract_info_from_filename(filename):
-    # 假设文件名格式为 "{Artist} - {Title}.mp3"
     artist, title = filename.rsplit('-', 1)
     title = title.rsplit('.mp3', 1)[0]
     return artist, title
