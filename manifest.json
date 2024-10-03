@@ -1,0 +1,21 @@
+{
+  "name": "LuoHMusic",
+  "short_name": "LuoHMusic",
+  "theme_color": "#000000",
+  "background_color": "#000000",
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+      {
+        "src": "favicon.png",
+        "sizes": "1080x1085",
+        "type": "image/png"
+      },
+      {
+        "src": "favicon.png",
+        "sizes": "1080x1085",
+        "type": "image/png"
+      }
+    ]
+}
