@@ -13,7 +13,7 @@ updated: '2024-08-30 11:26:19'
 
 # 1.前言
 
-本文是对于[luohAPI](https://api.luoh.my.to/New)的文档介绍，便于更方便的使用
+本文是对于[luohAPI](https://api.luoh-an.me/)的文档介绍，便于更方便的使用
 
 ---
 
@@ -24,7 +24,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.1.1 HistoryToday
 
 {% folding blue open, 历史上的今天 %}
-**接口地址**  <span id="HistoryToday" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/InfoHub/HistoryToday/`</code></span>
+**接口地址**  <span id="HistoryToday" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/InfoHub/HistoryToday/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -79,7 +79,7 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例** 
-<br> <span id="HistoryToday" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/InfoHub/HistoryToday/`</code></span>
+<br> <span id="HistoryToday" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/InfoHub/HistoryToday/`</code></span>
 
  {% endfolding %}
 
@@ -87,7 +87,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.1.2 Horoscope
 
 {% folding blue open, 星座运势 %}
-**接口地址**  <span id="Horoscope" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/InfoHub/Horoscope/`</code></span>
+**接口地址**  <span id="Horoscope" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/InfoHub/Horoscope/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -139,7 +139,7 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="Horoscope" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/InfoHub/Horoscope/?msg=白羊`</code></span>
+<span id="Horoscope" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/InfoHub/Horoscope/?msg=白羊`</code></span>
 
  {% endfolding %}
 
@@ -149,7 +149,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.2.1 AnimeImage
 
 {% folding blue open, 动漫趋向图片 %}
-**接口地址**  <span id="AnimeImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/PicLibrary/AnimeImage/`</code></span>
+**接口地址**  <span id="AnimeImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/PicLibrary/AnimeImage/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -169,7 +169,7 @@ updated: '2024-08-30 11:26:19'
 ```json
 {
   "status": "200",
-  "url": "https://new-api-2.pages.dev/image/ecy/anime/first/85a1dd13bc908d1c.webp"
+  "url": "https://cdn.s2.luoh-an.me/image/ecy/anime/first/85a1dd13bc908d1c.webp"
 }
 ```
 
@@ -189,8 +189,8 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="AnimeImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/PicLibrary/AnimeImage/?t=anime/first&r=image`</code></span>
-![AnimeImage](https://api.luoh.my.to/New/PicLibrary/AnimeImage/?t=anime/first&r=image)
+<span id="AnimeImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/PicLibrary/AnimeImage/?t=anime/first&r=image`</code></span>
+![AnimeImage](https://api.luoh-an.me/PicLibrary/AnimeImage/?t=anime/first&r=image)
 
  {% endfolding %}
 
@@ -198,7 +198,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.2.2 Emoticon
 
 {% folding blue open, 表情包 %}
-**接口地址**  <span id="Emoticon" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/PicLibrary/Emoticon/`</code></span>
+**接口地址**  <span id="Emoticon" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/PicLibrary/Emoticon/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -218,7 +218,7 @@ updated: '2024-08-30 11:26:19'
 ```json
 {
   "status": "200",
-  "url": "https://new-api-1.pages.dev/image/emoticon/capoo/cc9ee90088ddab18.png"
+  "url": "https://cdn.s1.luoh-an.me/image/emoticon/capoo/cc9ee90088ddab18.png"
 }
 ```
 
@@ -238,8 +238,8 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="Emoticon" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/PicLibrary/Emoticon/?t=capoo&r=image`</code></span>
-![Emoticon](https://api.luoh.my.to/New/PicLibrary/Emoticon/?t=capoo&r=image)
+<span id="Emoticon" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/PicLibrary/Emoticon/?t=capoo&r=image`</code></span>
+![Emoticon](https://api.luoh-an.me/PicLibrary/Emoticon/?t=capoo&r=image)
 
  {% endfolding %}
 
@@ -247,7 +247,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.2.3 Other
 
 {% folding blue open, 未做分类的图片 %}
-**接口地址**  <span id="Other" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/PicLibrary/Other/`</code></span>
+**接口地址**  <span id="Other" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/PicLibrary/Other/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -266,7 +266,7 @@ updated: '2024-08-30 11:26:19'
 ```json
 {
   "status": 200,
-  "url": "https://new-api-1.pages.dev/image/other/dbd3e84f51b4da63.webp"
+  "url": "https://cdn.s1.luoh-an.me/image/other/dbd3e84f51b4da63.webp"
 }
 ```
 
@@ -286,8 +286,8 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="Other" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/PicLibrary/Other/?r=image`</code></span>
-![Other](https://api.luoh.my.to/New/PicLibrary/Other/?r=image)
+<span id="Other" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/PicLibrary/Other/?r=image`</code></span>
+![Other](https://api.luoh-an.me/PicLibrary/Other/?r=image)
 
  {% endfolding %}
 
@@ -295,7 +295,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.2.4 RealImage
 
 {% folding blue open, 现实趋向图片 %}
-**接口地址**  <span id="RealImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/PicLibrary/RealImage/`</code></span>
+**接口地址**  <span id="RealImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/PicLibrary/RealImage/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -315,7 +315,7 @@ updated: '2024-08-30 11:26:19'
 ```json
 {
   "status": "200",
-  "url": "https://new-api-1.pages.dev/image/scy/cat/da8a76f0fa575444.png"
+  "url": "https://cdn.s1.luoh-an.me/image/scy/cat/da8a76f0fa575444.png"
 }
 ```
 
@@ -335,8 +335,8 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="RealImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/PicLibrary/RealImage/?t=cat&r=image`</code></span>
-![RealImage](https://api.luoh.my.to/New/PicLibrary/RealImage/?t=cat&r=image)
+<span id="RealImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/PicLibrary/RealImage/?t=cat&r=image`</code></span>
+![RealImage](https://api.luoh-an.me/PicLibrary/RealImage/?t=cat&r=image)
 
  {% endfolding %}
 
@@ -346,14 +346,14 @@ updated: '2024-08-30 11:26:19'
 ### 2.3.1 DateImage
 
 {% folding blue open, 每日一签图片 %}
-**接口地址**  <span id="DateImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/RiliTools/DateImage/`</code></span>
+**接口地址**  <span id="DateImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/RiliTools/DateImage/`</code></span>
 **请求方法** `GET` <br>
 
 <br>
 
 **请求示例**
-<span id="DateImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/RiliTools/DateImage/`</code></span>
-![DateImage](https://api.luoh.my.to/New/RiliTools/DateImage/)
+<span id="DateImage" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/RiliTools/DateImage/`</code></span>
+![DateImage](https://api.luoh-an.me/RiliTools/DateImage/)
 
  {% endfolding %}
 
@@ -361,7 +361,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.3.2 DateInfo
 
 {% folding blue open, 每日日期信息 %}
-**接口地址**  <span id="DateInfo" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/RiliTools/DateInfo/`</code></span>
+**接口地址**  <span id="DateInfo" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/RiliTools/DateInfo/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -412,7 +412,7 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="DateInfo" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/RiliTools/DateInfo/`</code></span>
+<span id="DateInfo" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/RiliTools/DateInfo/`</code></span>
 
  {% endfolding %}
 
@@ -420,7 +420,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.3.2 GetTime
 
 {% folding blue open, 时区时间 %}
-**接口地址**  <span id="GetTime" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/RiliTools/GetTime/`</code></span>
+**接口地址**  <span id="GetTime" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/RiliTools/GetTime/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -473,7 +473,7 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="GetTime" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/RiliTools/GetTime/`</code></span>
+<span id="GetTime" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/RiliTools/GetTime/`</code></span>
 
  {% endfolding %}
 
@@ -483,7 +483,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.4.1 GetIP
 
 {% folding blue open, IP地址 %}
-**接口地址**  <span id="GetIP" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/ToolBox/GetIP/`</code></span>
+**接口地址**  <span id="GetIP" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/ToolBox/GetIP/`</code></span>
 **请求方法** `GET` <br>
 
 <br>
@@ -518,7 +518,7 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="GetIP" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/RiliTools/GetIP/`</code></span>
+<span id="GetIP" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/RiliTools/GetIP/`</code></span>
 
  {% endfolding %}
 
@@ -526,7 +526,7 @@ updated: '2024-08-30 11:26:19'
 ### 2.4.2 QRCode
 
 {% folding blue open, 二维码生成 %}
-**接口地址**  <span id="QRCode" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/ToolBox/QRCode/`</code></span>
+**接口地址**  <span id="QRCode" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/ToolBox/QRCode/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -542,8 +542,8 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="QRCode" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/ToolBox/QRCode/?m=你好，访客！`</code></span>
-![QRCode](https://api.luoh.my.to/New/ToolBox/QRCode/?m=你好，访客。)
+<span id="QRCode" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/ToolBox/QRCode/?m=你好，访客！`</code></span>
+![QRCode](https://api.luoh-an.me/ToolBox/QRCode/?m=你好，访客。)
 
  {% endfolding %}
 
@@ -551,7 +551,7 @@ updated: '2024-08-30 11:26:19'
 ## 2.5 Yiyan
 
 {% folding blue open, 随机一言 %}
-**接口地址**  <span id="Yiyan" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/Yiyan/`</code></span>
+**接口地址**  <span id="Yiyan" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/Yiyan/`</code></span>
 **请求方法** `GET` <br>
 **请求参数说明**
 
@@ -574,7 +574,7 @@ updated: '2024-08-30 11:26:19'
 <br>
 
 **请求示例**
-<span id="Yiyan" onclick="CopyApiLink()"><code class="API">`https://api.luoh.my.to/New/Yiyan/?t=诗词`</code></span>
+<span id="Yiyan" onclick="CopyApiLink()"><code class="API">`https://api.luoh-an.me/Yiyan/?t=诗词`</code></span>
 
  {% endfolding %}
 
