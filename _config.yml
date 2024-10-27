@@ -13,8 +13,8 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-#url: https://blog.luoh-an.me/
-url: http://localhost:8000/github/enlt/blog/main/public/
+url: https://blog.luoh-an.me/
+#url: http://localhost:8000/github/enlt/blog/main/public/
 #url: https://enltc.pages.dev/
 permalink: posts/:abbrlink.html
 permalink_defaults:
