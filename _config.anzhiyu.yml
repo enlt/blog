@@ -7,17 +7,16 @@ nav:
       item:
         - name: 音乐馆
           link: https://music.luoh.pages.dev/
-          icon: https://cdn.icon-icons.com/icons2/2201/PNG/96/apple_music_android_logo_icon_134021.png
+          icon: https://fastly.jsdelivr.net/gh/Richard9394/MingCute@master/svg/media/music_3_fill.svg
         - name: MIKUTAP
           link: https://mikutap.luoh.pages.dev/
-          icon: https://cdn.icon-icons.com/icons2/605/PNG/512/heart-rhythm_icon-icons.com_56083.png
+          icon: https://fastly.jsdelivr.net/gh/Richard9394/MingCute@master/svg/media/music_2_ai_fill.svg
         - name: 表情一览
           link: https://emoji-show.luoh.pages.dev/
-          icon: https://cdn.icon-icons.com/icons2/2645/PNG/512/emoji_smile_icon_160172.png
+          icon: https://fastly.jsdelivr.net/gh/Richard9394/MingCute@master/svg/emoji/emoji_fill.svg
         - name: Cover
           link: https://pic.chino.my.to/cover
-          icon: https://cdn.icon-icons.com/icons2/390/PNG/512/book-cover_39346.png
-
+          icon: https://fastly.jsdelivr.net/gh/Richard9394/MingCute@master/svg/design/background_fill.svg
 menu:
   文章:
     分类: /categories/ || anzhiyu-icon-shapes
@@ -59,9 +58,9 @@ diytitle:
 # 打赏二维码
 reward:
   enable: true
-  coinAudio: https://cdn.cbd.int/luoh-blog-static@0.0.5/audio/aowu.m4a
+  coinAudio: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.5/audio/aowu.m4a
   QR_code:
-    - img: https://cdn.cbd.int/luoh-blog-static@0.0.5/image/qrcode-wechat.png
+    - img: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.5/image/qrcode-wechat.png
       link:
       text: wechat
 
@@ -109,7 +108,7 @@ runtimeshow:
 error_404:
   enable: true
   subtitle: "怪兽把页面拖走了..."
-  background: https://cdn.cbd.int/luoh-blog-static@0.0.7/image/gif/404.gif #https://pic.chino.my.to/i/2024/07/31/448691.gif
+  background: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.7/image/gif/404.gif #https://pic.chino.my.to/i/2024/07/31/448691.gif
 
 icons:
   fontawesome: true
@@ -225,7 +224,7 @@ comments:
   card_post_count: false
 
 twikoo:
-  envId: https://enltic-twikoo.hf.space/
+  envId: https://twikoo.luoh-an.me/
   region: ap-shanghai
   visitor: false  
   option:
@@ -246,7 +245,7 @@ preloader:
   enable: true
   source: 3
   pace_css_url:
-  avatar: https://i1.wp.com/cdn.cbd.int/luoh-blog-static@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
+  avatar: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
 
 # 评论匿名邮箱
 visitorMail:
@@ -296,12 +295,12 @@ home_top:
   default_descr: 万军争战于世间
   swiper:
     enable: false
-    swiper_css: https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
-    swiper_js: https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
+    swiper_css: https://fastly.jsdelivr.net/npm/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
+    swiper_js: https://fastly.jsdelivr.net/npm/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: TOP
     title: 花间一壶酒，剑客于千秋。
-    image: https://cdn.cbd.int/luoh-blog-static@0.0.8/image/webp/banner-image.webp #https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722229480952.webp
+    image: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.8/image/webp/banner-image.webp #https://cdn.jsdmirror.com/gh/snxdm/picgo@main/2024/1722229480952.webp
     link: https://luoh.pages.dev/
 
 agreementPopup:
@@ -321,12 +320,12 @@ nav_music:
 # CDN
 # 非必要请不要修改
 CDN:
-  internal_provider: cbd
-  third_party_provider: cbd
+  internal_provider: jsdelivr
+  third_party_provider: jsdelivr
   option:
     meting_api: https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r
-    twikoo: https://cdn.cbd.int/twikoo@1.6.39/dist/twikoo.all.min.js
-    busuanzi: https://cdn.cbd.int/penndu@1.0.0/bsz.js
+    twikoo: https://fastly.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js
+    busuanzi: https://fastly.jsdelivr.net/npm/penndu@1.0.0/bsz.js
 
 # dark mode
 darkmode:
@@ -354,7 +353,7 @@ mourn:
   days: [4-4, 7-7, 9-18, 12-13]
 
 avatar:
-  img: https://i1.wp.com/cdn.cbd.int/luoh-blog-static@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
+  img: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.7/image/gif/avatar.gif #https://cravatar.cn/avatar/7bd408da64452102b343f062e9f091c0
   effect: false
 
 toc:
@@ -387,28 +386,28 @@ footer:
   runtime:
     enable: false
     launch_time: 04/23/2024 00:00:00 # 网站上线时间
-    work_img: https://cdn.cbd.int/luoh-blog-static@0.0.1/image/落渐离-苦逼学生者.svg
+    work_img: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.1/image/落渐离-苦逼学生者.svg
     work_description: 在下乃苦逼学生者
-    offduty_img: https://cdn.cbd.int/luoh-blog-static@0.0.1/image/落渐离-苦逼学生者.svg
+    offduty_img: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.1/image/落渐离-苦逼学生者.svg
     offduty_description: 在下乃苦逼学生者
   # 徽标部分配置项
   bdageitem:
     enable: true
     list:
       - link: https://hexo.io/ #徽标指向网站链接
-        shields: https://cdn.cbd.int/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
+        shields: https://fastly.jsdelivr.net/npm/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg #徽标API
         message: 博客框架为Hexo #徽标提示语
-      - link: https://cdn.cbd.int/
-        shields: https://cdn.cbd.int/luoh-blog-static@0.1.4-rc.2/image/svg/CDN-Unpkg-green.svg
+      - link: https://fastly.jsdelivr.net/npm/
+        shields: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.1.4-rc.2/image/svg/CDN-Unpkg-green.svg
         message: 本站使用Unpkg为静态资源提供CDN加速
       - link: https://github.com/
-        shields: https://cdn.cbd.int/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
+        shields: https://fastly.jsdelivr.net/npm/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
         message: 本站项目由Github托管
       - link: https://github.com/anzhiyu-c/hexo-theme-anzhiyu
-        shields: https://cdn.cbd.int/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
+        shields: https://fastly.jsdelivr.net/npm/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
       - link: http://creativecommons.org/licenses/by-nc-sa/4.0/
-        shields: https://cdn.cbd.int/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
+        shields: https://fastly.jsdelivr.net/npm/anzhiyu-blog@2.2.0/img/badge/Copyright-BY-NC-SA.svg
         message: 本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可
   socialBar:
     enable: true
@@ -436,9 +435,9 @@ footer:
           - title: 不蒜子
             link: https://dusays.com/476/
           - title: Unpkg
-            link: https://cdn.cbd.int/
+            link: https://fastly.jsdelivr.net/npm/
           - title: luohAPI
-            link: https://api.luoh.my.to/
+            link: https://api.luoh-an.me/
       - title: 导航
         links:
           - title: 即刻短文
@@ -495,23 +494,23 @@ theme_color:                   # 主题颜色配置的开始
   
 inject:
   head:
-    - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.1.3-rc.1/css/font.css"> # 字体
-    - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/home.css"> # 首页文章卡片擦亮效果
-    - <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.1.5-rc.2/css/SomeBeautify.css">
-    #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/welcome.css"> # 个性定位欢迎
-    #- <link rel="stylesheet" href="https://cdn.cbd.int/luoh-blog-static@0.0.2/css/custom.css" media="defer" onload="this.media='all'">
-    - <link rel="stylesheet" href="https://cdn.cbd.int/cn-fontsource-lxgw-wen-kai-gb-screen/font.css"></link>
-    - <link rel="stylesheet" href="https://cdn.cbd.int/sweetalert2@11.12.4/dist/sweetalert2.min.css"> # 弹窗
+    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/luoh-blog-static@0.1.3-rc.1/css/font.css"> # 字体
+    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.2/css/home.css"> # 首页文章卡片擦亮效果
+    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/luoh-blog-static@0.1.5-rc.2/css/SomeBeautify.css">
+    #- <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.2/css/welcome.css"> # 个性定位欢迎
+    #- <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.2/css/custom.css" media="defer" onload="this.media='all'">
+    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/cn-fontsource-lxgw-wen-kai-gb-screen/font.css"></link>
+    - <link rel="stylesheet" href="https://fastly.jsdelivr.net/npm/sweetalert2@11.12.4/dist/sweetalert2.min.css"> # 弹窗
   bottom:
     - <script type="text/javascript" src="https://unpkg.zhimg.com/jquery@latest/dist/jquery.min.js"></script> # jquery.min.js
-    #- <script defer="true" src="https://cdn.cbd.int/luoh-blog-static@0.0.2/js/welcome.js"></script> # 个性定位欢迎信息
-    #- <script async data-pjax src="https://cdn.cbd.int/luoh-blog-static@0.0.2/js/imgloaded.js"></script> # 首页图片渐进式加载
-    - <script src="https://cdn.cbd.int/sweetalert2@11.12.4"></script> # 弹窗
-    - <script src="https://cdn.cbd.int/luoh-blog-static@0.1.5-rc.7/js/swal2.js"></script> # 弹窗
+    #- <script defer="true" src="https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.2/js/welcome.js"></script> # 个性定位欢迎信息
+    #- <script async data-pjax src="https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.2/js/imgloaded.js"></script> # 首页图片渐进式加载
+    - <script src="https://fastly.jsdelivr.net/npm/sweetalert2@11.12.4"></script> # 弹窗
+    - <script src="https://fastly.jsdelivr.net/npm/luoh-blog-static@0.1.5-rc.7/js/swal2.js"></script> # 弹窗
 lazyload:
   enable: true
   field: post
-  placeholder: https://cdn.cbd.int/luoh-blog-static@0.1.4-rc.5/image/gif/loading.gif
+  placeholder: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.1.4-rc.5/image/gif/loading.gif
   blur: true
   progressive: true
   extend:
@@ -565,7 +564,7 @@ post_head_ai_description:
   gptName: LuoH
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
-  btnLink: https://luoh.pages.dev/
+  btnLink: https://blog.luoh-an.me/
   randomNum: 3 # 按钮最大的随机次数，也就是一篇文章最大随机出来几种
   basicWordCount: 1000 # 最低获取字符数, 最小1000, 最大1999
   key: x

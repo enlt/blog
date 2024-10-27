@@ -92,7 +92,7 @@ hexo.extend.filter.register("before_generate", () => {
       };
       const cdnSource = {
         local: cond === "internal" ? cdnjs_file : `/pluginsSrc/${name}/${file}`,
-        jsdelivr: `https://cdn.jsdmirror.com/npm/${name}${verType}/${min_file}`,
+        jsdelivr: `https://fastly.jsdelivr.net/npm/${name}${verType}/${min_file}`,
         unpkg: `https://unpkg.com/${name}${verType}/${file}`,
         cdnjs: `https://cdnjs.cloudflare.com/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file}`,
         elemecdn: `https://npm.elemecdn.com/${name}${verType}/${file}`,

@@ -3,8 +3,8 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 渐离
-subtitle: '落人间，破三弦，忆李仙'
+title: 落渐离
+subtitle: '落人间，渐隐弦，离愁宣。'
 description: '落渐离的个人博客，记录生活点滴与思考，分享编程技巧和成长历程。'
 keywords: '渐离,博客,生活,记录'
 author: 落渐离
@@ -13,7 +13,8 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://luoh.pages.dev/
+#url: https://blog.luoh-an.me/
+url: http://localhost:8000/github/enlt/blog/main/public/
 #url: https://enltc.pages.dev/
 permalink: posts/:abbrlink.html
 permalink_defaults:
@@ -112,10 +113,10 @@ abbrlink:
 envelope_comment:
   enable: true #控制开关
   custom_pic:
-    cover: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
-    line: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/line.png #信笺底部图片
-    beforeimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/before.png # 信封前半部分
-    afterimg: https://npm.elemecdn.com/hexo-butterfly-envelope/lib/after.png # 信封后半部分
+    cover: https://fastly.jsdelivr.net/npm/hexo-butterfly-envelope/lib/violet.jpg #信笺头部图片
+    line: https://fastly.jsdelivr.net/npm/hexo-butterfly-envelope/lib/line.png #信笺底部图片
+    beforeimg: https://fastly.jsdelivr.net/npm/hexo-butterfly-envelope/lib/before.png # 信封前半部分
+    afterimg: https://fastly.jsdelivr.net/npm/hexo-butterfly-envelope/lib/after.png # 信封后半部分
   message: #信笺正文，多行文本，写法如下
     - 有什么想问的？
     - 有什么想说的？
@@ -198,7 +199,7 @@ hexo_safego:
     - 'luoh'
   apply_pages:  # 生效页面路径列表，只有在这些页面上才会对链接进行处理
     - '/'
-  avatar: https://i1.wp.com/cdn.cbd.int/luoh-blog-static@0.0.7/image/gif/avatar.gif  # 头像图片链接
+  avatar: https://fastly.jsdelivr.net/npm/luoh-blog-static@0.0.7/image/gif/avatar.gif  # 头像图片链接
   title: "落渐离"  # 标题
   subtitle: "安全中心"  # 副标题
   darkmode: false  # 是否启用夜间模式
